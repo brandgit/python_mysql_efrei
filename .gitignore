@@ -1,0 +1,30 @@
+# Ignorer les répertoires d'environnement virtuel
+myenv/
+venv/
+
+# Ignorer les fichiers de configuration spécifiques à l'éditeur
+.vscode/
+.idea/
+*.swp
+
+# Ignorer les fichiers/dossiers générés par Docker
+docker-compose.override.yml
+*.log
+.dockerignore
+
+# Ignorer les volumes Docker
+mysql_data/
+
+# Ignorer les fichiers de base de données locaux
+*.sqlite3
+*.db
+
+# Ignorer les fichiers de secrets et mots de passe sensibles
+.env
+*.key
+*.pem
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
